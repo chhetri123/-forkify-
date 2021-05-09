@@ -1,20 +1,30 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "Recipe app",
+  "description": "Recipe App",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "Chhetri Don",
-  "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.26.10"
   },
   "dependencies": {
-    "core-js": "^3.12.0",
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhetri123/-forkify-.git"
+  },
+  "author": "Chhetri don",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhetri123/-forkify-/issues"
+  },
+  "homepage": "https://github.com/chhetri123/-forkify-#readme"
 }
