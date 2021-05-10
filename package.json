@@ -7,9 +7,6 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --clear cache"
   },
-  "devDependencies": {
-    "parcel": "^2.0.0-beta-2"
-  },
   "dependencies": {
     "core-js": "^3.6.5",
     "fractional": "^1.0.0",
@@ -24,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/chhetri123/-forkify-/issues"
   },
-  "homepage": "https://github.com/chhetri123/-forkify-#readme"
+  "homepage": "https://github.com/chhetri123/-forkify-#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
