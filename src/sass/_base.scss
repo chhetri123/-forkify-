@@ -50,7 +50,7 @@ body {
 .container {
   max-width: 120rem;
   min-height: 117rem;
-  margin: 4vw auto;
+  margin: 1vw auto;
   background-color: #fff;
   border-radius: 9px;
   overflow: hidden;
@@ -62,7 +62,7 @@ body {
   grid-template-areas:
     'head head'
     'list recipe';
-
+  transform: scale(0.9);
   @media only screen and (max-width: $bp-large) {
     max-width: 100%;
     margin: 0;
